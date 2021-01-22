@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/css/style-v2.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  </head>
+  <body id="game-result-container">
+    <h1 id="table-title">Game Results</h1>
+    <table class="table">
+      <thead>
+        <tr>
+          <th scope="col">Winning Times</th>
+          <th scope="col">Losing Times</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td id="winning"></td>
+          <td id="losing"></td>
+        </tr>
+      </tbody>
+    </table>
+    <div id="return-to-game-container">
+      <a
+        href="javascript:window.open('rps-game.html', '_self')"
+        id="return-to-game"
+        >Return to game</a
+      >
+    </div>
+    <script src="/js/script-v2-results.js"></script>
+  </body>
+</html>

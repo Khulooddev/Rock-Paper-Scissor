@@ -1,0 +1,54 @@
+/* standard design */
+
+.main-page-container {
+  margin: 0 auto;
+  text-align: center;
+  background-color: black;
+  justify-content: center;
+}
+#heading {
+  color: azure;
+  margin-top: 300px;
+  font-size: 100px;
+}
+#start-button {
+  margin-top: 30px;
+  width: 200px;
+  height: 50px;
+  background-color: greenyellow;
+  font-size: 25px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+  background-color: black;
+}
+.row {
+  margin-left: 0 auto;
+  text-align: center;
+  margin-top: 200px;
+  background-color: black;
+}
+.col {
+  background-color: aliceblue;
+  margin-left: 20px;
+  margin-left: 20px;
+  padding-top: 40px;
+  align-content: center;
+  border-radius: 10px;
+}
+img {
+  width: 200px;
+}
+#results {
+  font-size: 80px;
+  padding-top: 40px;
+  color: yellow;
+  text-align: center;
+}
+
+/* animation and special effects */
+
+.col:hover {
+  border: 20px solid greenyellow;
+  border-radius: 10px;
+}
